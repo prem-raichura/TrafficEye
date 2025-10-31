@@ -17,7 +17,7 @@ This repository contains the official implementation and results from our IEEE-p
 **TrafficEye** is an intelligent traffic optimization system powered by **Deep Learning** and **YOLO-based object detection**.  
 It detects vehicles, pedestrians, and traffic entities in real time using live video feeds, enabling **dynamic traffic control**, **reduced congestion**, and **enhanced safety**.
 
-This repository includes the evaluation of **YOLOv5**, **YOLOv7**,**YOLOv4** **YOLOv8**, and  **YOLOv8** on the **IITM Hetra Dataset** — a dataset representing real Indian road conditions 🇮🇳.  
+This repository includes the evaluation of **YOLOv5**, **YOLOv7**, **YOLOv4**, and  **YOLOv8** on the **IITM Hetra Dataset** — a dataset representing real Indian road conditions 🇮🇳.  
 
 > 🟢 **YOLOv5s emerged as the top-performing model**, achieving the best balance between accuracy, speed, and computational efficiency across all test scenarios.
 
