@@ -13,6 +13,7 @@ RESIZE_WIDTH = 640
 VIDEO_PATH = r"C:\Users\PREM\Desktop\Yolotest\traffic.mp4"
 IMAGE_PATH = r"C:\Users\PREM\Desktop\Yolotest\traffic.png"
 MODEL_PATH = r"C:\Users\PREM\Desktop\Yolotest\TrafficEye_yolov5su.pt"
+#MODEL_PATH = r"C:\Users\PREM\Desktop\Yolotest\TrafficEye_yolov8su.pt"
 
 # === Load YOLO Model ===
 model = YOLO(MODEL_PATH)
@@ -158,3 +159,4 @@ cv2.destroyAllWindows()
 # === Save CSV ===
 df.to_csv("vehicle_density_log.csv", index=False)
 print("Detection log saved to vehicle_density_log.csv")
+
