@@ -17,7 +17,7 @@ This repository contains the official implementation and results from our IEEE-p
 **TrafficEye** is an intelligent traffic optimization system powered by **Deep Learning** and **YOLO-based object detection**.  
 It detects vehicles, pedestrians, and traffic entities in real time using live video feeds, enabling **dynamic traffic control**, **reduced congestion**, and **enhanced safety**.
 
-This repository includes the evaluation of **YOLOv5**, **YOLOv7**, **YOLOv4**, and  **YOLOv8** on the **IITM Hetra Dataset** — a dataset representing real Indian road conditions 🇮🇳.  
+This repository includes the evaluation of **YOLOv5su**, **YOLOv7**, **YOLOv4**, and  **YOLOv8s** on the **IITM Hetra Dataset** — a dataset representing real Indian road conditions 🇮🇳.  
 
 > 🟢 **YOLOv5s emerged as the top-performing model**, achieving the best balance between accuracy, speed, and computational efficiency across all test scenarios.
 
@@ -38,13 +38,13 @@ This repository includes the evaluation of **YOLOv5**, **YOLOv7**, **YOLOv4**, a
 | Model       | Precision   | Recall      | mAP@50     | FPS         | Comment                              |
 | ----------- | ----------- | ----------- | ---------- | ----------- | ------------------------------------ |
 | **YOLOv4**  | 🟢 High     | 🟡 Moderate | 🟡 Good    | ⚙️ Moderate | Solid baseline, older generation     |
-| **YOLOv5s** | 🟢 Highest  | 🟢 Highest  | ⭐ **Best** | ⚡ Fast      | ✅ **Optimal overall performer**   |
+| **YOLOv5su** | 🟢 Highest  | 🟢 Highest  | ⭐ **Best** | ⚡ Fast      | ✅ **Optimal overall performer**   |
 | **YOLOv7**  | 🟡 Moderate | 🟢 High     | 🟡 Average | ⚙️ Balanced | Reliable mid-tier model              |
-| **YOLOv8**  | 🟡 Moderate | 🟡 Moderate | 🟡 Good    | 🔺 Heavy    | High accuracy, but compute-intensive |
+| **YOLOv8s**  | 🟡 Moderate | 🟡 Moderate | 🟡 Good    | 🔺 Heavy    | High accuracy, but compute-intensive |
 
 
 
-> 🥇 **YOLOv5s** demonstrated superior precision, recall, and FPS, making it the most suitable for **real-time traffic management**.
+> 🥇 **YOLOv5su** demonstrated superior precision, recall, and FPS, making it the most suitable for **real-time traffic management**.
 
 ---
 
