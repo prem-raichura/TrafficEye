@@ -1,5 +1,5 @@
 # 🚦 TrafficEye: Intelligent Traffic Optimization Using Deep Learning Approach 🧠  
-### ✨ *A Comparative Study of YOLOv5, YOLOv7, YOLOv4 & YOLOv8 on the IITM Hetra Indian Dataset*
+
 
 ---
 
