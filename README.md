@@ -26,7 +26,7 @@ This repository includes the evaluation of **YOLOv5**, **YOLOv7**, and **YOLOv8*
 ## 🔍 Paper Details  
 
 **📘 Title:** *TrafficEye: Intelligent Traffic Optimization Using Deep Learning Approach*  
-**✍️ Authors:** *Charmi Padh*, *[Add your co-authors]*  
+**✍️ Authors:** *Charmi Padh*, *Prem Raichura*, *Zalak Vachhani* , *Rohan Thakar*   
 **🏛️ Published in:** *IEEE Xplore – 2nd International Conference on Artificial Intelligence and Machine Vision (AIMV 2025)*  
 **📅 Year:** 2025  
 **🔗 DOI:** [10.1109/AIMV66517.2025.11203522](https://doi.org/10.1109/AIMV66517.2025.11203522)
@@ -35,11 +35,13 @@ This repository includes the evaluation of **YOLOv5**, **YOLOv7**, and **YOLOv8*
 
 ## 🧩 Models Overview  
 
-| Model       | Precision   | Recall      | mAP@50     | FPS         | Comment               |
-| ----------- | ----------- | ----------- | ---------- | ----------- | -------------------   |
-| **YOLOv5s** | 🟢 Highest  | 🟢 Highest  | ⭐ **Best** | ⚡ Fast      | ✅ Optimal        |
-| YOLOv7      | 🟡 Moderate | 🟢 High     | 🟡 Average | ⚙️ Balanced | Good performance    |
-| YOLOv8      | 🟡 Moderate | 🟡 Moderate | 🟡 Good    | 🔺 Heavy    | High compute demand |
+| Model       | Precision   | Recall      | mAP@50     | FPS         | Comment                              |
+| ----------- | ----------- | ----------- | ---------- | ----------- | ------------------------------------ |
+| **YOLOv4**  | 🟢 High     | 🟡 Moderate | 🟡 Good    | ⚙️ Moderate | Solid baseline, older generation     |
+| **YOLOv5s** | 🟢 Highest  | 🟢 Highest  | ⭐ **Best** | ⚡ Fast      | ✅ **Optimal overall performer**      |
+| **YOLOv7**  | 🟡 Moderate | 🟢 High     | 🟡 Average | ⚙️ Balanced | Reliable mid-tier model              |
+| **YOLOv8**  | 🟡 Moderate | 🟡 Moderate | 🟡 Good    | 🔺 Heavy    | High accuracy, but compute-intensive |
+
 
 
 > 🥇 **YOLOv5s** demonstrated superior precision, recall, and FPS, making it the most suitable for **real-time traffic management**.
